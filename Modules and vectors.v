@@ -4,7 +4,7 @@ module top_module (
     input [1:0] sel, 
     output [7:0] q 
 );
-	// wire
+    // wire
     wire [7:0] q1, q2, q3;
     
     // instance
