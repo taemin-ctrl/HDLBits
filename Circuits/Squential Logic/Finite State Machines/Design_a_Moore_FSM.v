@@ -23,7 +23,7 @@ module top_module (
     
     always @(posedge clk) begin
         if (reset) begin
-			next <= 0;
+	    next <= 0;
             r_dfr <= 1;
         end
         else begin
